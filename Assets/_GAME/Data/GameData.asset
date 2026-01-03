@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aaf651b3a72c144d8ec107de8d69191, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  buildingData:
+  - id: building_tomato_1
+    buildTime: 10
+    buildPrice: 100
+    baseUpgradePrice: 500
+    productionTime: 1
+    productId: product_tomato_1
+    productCount: 3
+  - id: building_tomato_2
+    buildTime: 10
+    buildPrice: 1000
+    baseUpgradePrice: 2500
+    productionTime: 1
+    productId: product_tomato_2
+    productCount: 3
+  - id: building_tomato_3
+    buildTime: 10
+    buildPrice: 5000
+    baseUpgradePrice: 10000
+    productionTime: 1
+    productId: product_tomato_3
+    productCount: 3
+  - id: building_tomato_4
+    buildTime: 10
+    buildPrice: 10000
+    baseUpgradePrice: 50000
+    productionTime: 1
+    productId: product_tomato_4
+    productCount: 3
+  productData:
+  - id: product_tomato_1
+    productGFX: {fileID: 431050899201095724, guid: 7f43ad0a1dc9942deb52963a8ee6e6f4, type: 3}
+    productSellPrice: 1
+  - id: product_tomato_2
+    productGFX: {fileID: 431050899201095724, guid: 7f43ad0a1dc9942deb52963a8ee6e6f4, type: 3}
+    productSellPrice: 5
+  - id: product_tomato_3
+    productGFX: {fileID: 431050899201095724, guid: 7f43ad0a1dc9942deb52963a8ee6e6f4, type: 3}
+    productSellPrice: 10
+  - id: product_tomato_4
+    productGFX: {fileID: 431050899201095724, guid: 7f43ad0a1dc9942deb52963a8ee6e6f4, type: 3}
+    productSellPrice: 25
+  ProductAtlas: {fileID: 4343727234628468602, guid: aab402bd201de4ec0bff5520b96e3bf8, type: 2}
+  CurrencyAtlas: {fileID: 4343727234628468602, guid: 327c8c1be902541ae882636dba3ffc63, type: 2}
